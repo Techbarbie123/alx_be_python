@@ -4,7 +4,14 @@
 shopping_list = []
 
 def display_menu():
+<<<<<<< HEAD
     print(f"\n" "shopping_list manager")
+=======
+    """
+    Displays the menu with options for the shopping list manager.
+    """
+    print(f"\nShopping List Manager")
+>>>>>>> 4bd21f0cd27430afaf5714906da76bc3d9c27978
     print(f"1. Add Item")
     print(f"2. Remove Item")
     print(f"3. View List")
