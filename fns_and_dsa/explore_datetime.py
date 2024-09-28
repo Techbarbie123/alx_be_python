@@ -13,7 +13,6 @@ def calculate_future_date():
     Function to calculate the date after a user-specified number of days.
     """
     try:
-        # Prompt user for the number of days
         days_to_add = int(input("Enter the number of days to add: "))
         
         current_date = datetime.now()  # Get the current date
@@ -24,8 +23,6 @@ def calculate_future_date():
     
     except ValueError:
         print("Please enter a valid integer for the number of days.")
-
-# Main function to call the above functionalities
 if __name__ == "__main__":
     display_current_datetime()  # Display the current date and time
     calculate_future_date()     # Prompt user to calculate a future date
