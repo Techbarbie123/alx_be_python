@@ -9,7 +9,7 @@ def main():
     try:
         num = float(temp)
     except ValueError:
-        print("invalid temperature. please enter a numeric value.")
+        print("Invalid temperature. Please enter a numeric value.")
     unit = input("Is this temperature in Celsius or Fahrenheit? (C/F):").strip().upper()
     if unit == "C":
         converted_temp = celsius_to_fahrenheit
